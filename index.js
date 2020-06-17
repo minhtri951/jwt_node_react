@@ -13,6 +13,7 @@ app.get('/login', (req, res) => {
 
 app.get('/user', (req, res) => {
     res.send('Logged! Hello user!')
+    console.log(req.headers['cookie'])
 })
 
 
