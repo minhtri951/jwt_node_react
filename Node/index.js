@@ -19,7 +19,6 @@ app.get('/api/login', (req, res) => {
 })
 
 app.get('/api/protected', verifyToken, (req, res) => {
-    log("in protect")
     jwt.verify(req.token, 'secret', (err, decodedPayload) => {
         if (err) {
             res.sendStatus(403)
