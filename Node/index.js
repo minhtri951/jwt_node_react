@@ -1,28 +1,39 @@
 const express = require('express')
+const jwt = require('jsonwebtoken')
+const { verifyToken } = require('./middleware')
 const app = express()
 const port = 3000
 const { log } = console
 
 
-app.get('/login', (req, res) => {
-    res.set({
-        'Set-Cookie': 'session=oRlkVLOkCBNrMilaSWnTcWtCfJC; path=/;',
+app.get('/api/login', (req, res) => {
+    const user = {
+        id: 1,
+        username: 'tri',
+        email: 'tri@gmail.com'
+    }
+    jwt.sign({ user }, "secret", { expiresIn: 20 }, (err, token) => {
+        res.json({ token })
     })
-    res.redirect('/user')
+
 })
 
-app.get('/user', (req, res) => {
-    res.send('Logged! Hello user!')
-    console.log(req.headers['cookie'])
-})
+app.get('/api/protected', verifyToken, (req, res) => {
+    log("in protect")
+    jwt.verify(req.token, 'secret', (err, decodedPayload) => {
+        if (err) {
+            res.sendStatus(403)
 
-
-app.get('/logout', (req, res) => {
-    res.set({
-        'Set-Cookie': 'session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT',
+        } else {
+            res.json({
+                message: 'ok',
+                decodedPayload
+            })
+        }
     })
-    res.send('Loggouted!')
 })
+
+
 
 
 app.listen(port, () => {
