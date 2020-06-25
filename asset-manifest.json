@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/JWT_Node_React/static/css/main.5f361e03.chunk.css",
-    "main.js": "/JWT_Node_React/static/js/main.84f72fac.chunk.js",
-    "main.js.map": "/JWT_Node_React/static/js/main.84f72fac.chunk.js.map",
-    "runtime-main.js": "/JWT_Node_React/static/js/runtime-main.ec4cc2aa.js",
-    "runtime-main.js.map": "/JWT_Node_React/static/js/runtime-main.ec4cc2aa.js.map",
-    "static/js/2.b3dc571a.chunk.js": "/JWT_Node_React/static/js/2.b3dc571a.chunk.js",
-    "static/js/2.b3dc571a.chunk.js.map": "/JWT_Node_React/static/js/2.b3dc571a.chunk.js.map",
-    "index.html": "/JWT_Node_React/index.html",
-    "precache-manifest.42fc9be325ecba52b401969976282786.js": "/JWT_Node_React/precache-manifest.42fc9be325ecba52b401969976282786.js",
-    "service-worker.js": "/JWT_Node_React/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/JWT_Node_React/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b3dc571a.chunk.js.LICENSE.txt": "/JWT_Node_React/static/js/2.b3dc571a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/JWT_Node_React/static/media/logo.5d5d9eef.svg"
+    "main.css": "/jwt_node_react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/jwt_node_react/static/js/main.ac92d2fe.chunk.js",
+    "main.js.map": "/jwt_node_react/static/js/main.ac92d2fe.chunk.js.map",
+    "runtime-main.js": "/jwt_node_react/static/js/runtime-main.fa40558b.js",
+    "runtime-main.js.map": "/jwt_node_react/static/js/runtime-main.fa40558b.js.map",
+    "static/js/2.b3dc571a.chunk.js": "/jwt_node_react/static/js/2.b3dc571a.chunk.js",
+    "static/js/2.b3dc571a.chunk.js.map": "/jwt_node_react/static/js/2.b3dc571a.chunk.js.map",
+    "index.html": "/jwt_node_react/index.html",
+    "precache-manifest.55589cb45ed30949d84a48d6ac22ed1b.js": "/jwt_node_react/precache-manifest.55589cb45ed30949d84a48d6ac22ed1b.js",
+    "service-worker.js": "/jwt_node_react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/jwt_node_react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b3dc571a.chunk.js.LICENSE.txt": "/jwt_node_react/static/js/2.b3dc571a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/jwt_node_react/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec4cc2aa.js",
+    "static/js/runtime-main.fa40558b.js",
     "static/js/2.b3dc571a.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.84f72fac.chunk.js"
+    "static/js/main.ac92d2fe.chunk.js"
   ]
 }
