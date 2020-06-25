@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://minhtri951.github.io/JWT_Node_React",
+  "homepage": "http://minhtri951.github.io/jwt_node_react",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
